@@ -1,0 +1,9 @@
+<% @data.each do |contents| %>
+    <div class="media">
+        <div class="media-body">
+            <img src="/hoge.jpg" width="700px"><br><br>
+            <h4 class="media-heading"><%= contents.title %></a></h4>
+            <p><%= contents.contenttxt %></p>
+        </div>
+    </div>
+<% end %>
